@@ -1,8 +1,9 @@
 {
   "manifest_version": 3,
-  "name": "Bible.cbck Reader",
-  "description": "Bible.cbck Reader",
-  "version": "0.0.1",
+  "name": "카톨릭 성경 읽기",
+  "description": "카톨릭 성경의 본문만 표시하여 가독성을 높입니다.",
+  "version": "0.0.2",
+  "default_locale": "ko",
   "action": {
     "default_popup": "main.html",
     "default_icon": {

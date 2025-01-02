@@ -4,12 +4,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bible.cbck Reader</title>
 </head>
 
 <body style="min-width: 20em;">
-  <h3>Bible.cbck Reader (ver 0.0.1)</h3>
-  <p>성경책의 본문만 표시하여 가독성을 높입니다.</p>
+  <h3 id="title">카톨릭 성경 읽기</h3>
+  <p id="description">성경의 본문만 표시하여 가독성을 높입니다.</p>
+  <a href="https://bible.cbck.or.kr/Knb/" target="_blank"><img src="images/icon.png" width="32px" height="32px"></a>
+  <script>
+    ['title', 'description'].forEach(id => {
+      document.getElementById(id).innerText = chrome.i18n.getMessage(id);
+    })
+  </script>
 </body>
 
 </html>

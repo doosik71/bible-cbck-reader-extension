@@ -31,6 +31,3 @@ if (document.readyState === "loading") {
 } else {
     bible_cbck_reader_init();
 }
-
-
-// #main > div > div > div.off-10.col-2.off-10-large.col-2-large.off-9-small.col-3-small.align-right.sticky
